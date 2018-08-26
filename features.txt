@@ -1,0 +1,50 @@
+"activity": activity marked by the data 
+"subject": experimental subject of the observation
+
+In time domain:
+"tBodyAcc-mean()-X": mean value of body accelerometer in X axis
+"tBodyAcc-mean()-Y": mean value of body accelerometer in Y axis 
+"tBodyAcc-mean()-Z": mean value of body accelerometer in Z axis 
+"tBodyAcc-std()-X":standard deviation of body accelerometer in X axis 
+"tBodyAcc-std()-Y":standard deviation of body accelerometer in Y axis 
+"tBodyAcc-std()-Z":standard deviation of body accelerometer in Z axis 
+"tGravityAcc-mean()-X": mean value of the gravity accelerometer in X axis
+"tGravityAcc-mean()-Y": mean value of the gravity accelerometer in Y axis
+"tGravityAcc-mean()-Z": mean value of the gravity accelerometer in Z axis
+"tGravityAcc-std()-X": standard deviation value of the gravity accelerometer in X axis
+"tGravityAcc-std()-Y": standard deviation value of the gravity accelerometer in Y axis
+"tGravityAcc-std()-Z": standard deviation value of the gravity accelerometer in Z axis
+"tBodyAccJerk-mean()-X": mean value of body accelerometer jerk in X axis
+"tBodyAccJerk-mean()-Y": mean value of body accelerometer jerk in Y axis
+"tBodyAccJerk-mean()-Z": mean value of body accelerometer jerk in Z axis
+"tBodyAccJerk-std()-X": standard deviation of body accelerometer jerk in X axis
+"tBodyAccJerk-std()-Y": standard deviation of body accelerometer jerk in Y axis 
+"tBodyAccJerk-std()-Z": standard deviation of body accelerometer jerk in Z axis
+"tBodyGyro-mean()-X": mean value of body gyroscope in X axis 
+"tBodyGyro-mean()-Y": mean value of body gyroscope in Y axis  
+"tBodyGyro-mean()-Z": mean value of body gyroscope in Z axis 
+"tBodyGyro-std()-X": standard deviation of body gyroscope in X axis 
+"tBodyGyro-std()-Y": standard deviation of body gyroscope in Y axis  
+"tBodyGyro-std()-Z": standard deviation of body gyroscope in Z axis  
+"tBodyGyroJerk-mean()-X": mean value of body gyroscope jerk in X axis 
+"tBodyGyroJerk-mean()-Y": mean value of body gyroscope jerk in Y axis 
+"tBodyGyroJerk-mean()-Z": mean value of body gyroscope jerk in Z axis  
+"tBodyGyroJerk-std()-X": standard deviation of body gyroscope jerk in X axis  
+"tBodyGyroJerk-std()-Y": standard deviation of body gyroscope jerk in Y axis 
+"tBodyGyroJerk-std()-Z": standard deviation of body gyroscope jerk in Z axis
+"tBodyAccMag-mean()": mean value of body accelerometer magnitude
+"tBodyAccMag-std()": standard deviation of body accelerometer magnitude
+"tGravityAccMag-mean()": mean value of gravity accelerometer magnitude
+"tGravityAccMag-std()": standard deviation of gravity accelerometer magnitude
+"tBodyAccJerkMag-mean()": mean value of body accelerometer jerk magnitude
+"tBodyAccJerkMag-std()": standard deviation of body accelerometer jerk magnitude
+"tBodyGyroMag-mean()": mean value of body gyroscope magnitude
+"tBodyGyroMag-std()": standard deviation value of body gyroscope magnitude
+"tBodyGyroJerkMag-mean()": mean value of body gyroscope jerk magnitude 
+"tBodyGyroJerkMag-std()": standard deviation of body gyroscope jerk magnitude 
+
+In frequency domain:
+"fBodyAcc-mean()-X" "fBodyAcc-mean()-Y" "fBodyAcc-mean()-Z" "fBodyAcc-std()-X" "fBodyAcc-std()-Y" "fBodyAcc-std()-Z" "fBodyAcc-meanFreq()-X" "fBodyAcc-meanFreq()-Y" "fBodyAcc-meanFreq()-Z" "fBodyAccJerk-mean()-X" "fBodyAccJerk-mean()-Y" "fBodyAccJerk-mean()-Z" "fBodyAccJerk-std()-X" "fBodyAccJerk-std()-Y" "fBodyAccJerk-std()-Z" "fBodyAccJerk-meanFreq()-X" "fBodyAccJerk-meanFreq()-Y" "fBodyAccJerk-meanFreq()-Z" "fBodyGyro-mean()-X" "fBodyGyro-mean()-Y" "fBodyGyro-mean()-Z" "fBodyGyro-std()-X" "fBodyGyro-std()-Y" "fBodyGyro-std()-Z" "fBodyGyro-meanFreq()-X" "fBodyGyro-meanFreq()-Y" "fBodyGyro-meanFreq()-Z" "fBodyAccMag-mean()" "fBodyAccMag-std()" "fBodyAccMag-meanFreq()" "fBodyBodyAccJerkMag-mean()" "fBodyBodyAccJerkMag-std()" "fBodyBodyAccJerkMag-meanFreq()" "fBodyBodyGyroMag-mean()" "fBodyBodyGyroMag-std()" "fBodyBodyGyroMag-meanFreq()" "fBodyBodyGyroJerkMag-mean()" "fBodyBodyGyroJerkMag-std()" "fBodyBodyGyroJerkMag-meanFreq()" 
+
+Angle between vectors: 
+"angle(tBodyAccMean,gravity)""angle(tBodyAccJerkMean),gravityMean)" "angle(tBodyGyroMean,gravityMean)" "angle(tBodyGyroJerkMean,gravityMean)" "angle(X,gravityMean)" "angle(Y,gravityMean)" "angle(Z,gravityMean)"
